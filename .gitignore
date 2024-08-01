@@ -1,0 +1,7 @@
+# Ignore node_modules and build directories everywhere
+node_modules/
+build/
+
+# Ignore node_modules and build directories in all subdirectories
+**/node_modules/
+**/build/
