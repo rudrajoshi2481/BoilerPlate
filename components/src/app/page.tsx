@@ -8,6 +8,7 @@ export default function Home() {
         <ul>
           <li><Link href="/components/profile-header">Profile Header</Link></li>
           <li><Link href="/components/share-link">Share Link</Link></li>
+          <li><Link href="/components/shopping-cart">shopping-cart</Link></li>
         </ul>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
