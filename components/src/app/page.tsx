@@ -10,6 +10,7 @@ export default function Home() {
           <li><Link href="/components/share-link">Share Link</Link></li>
           <li><Link href="/components/shopping-cart">shopping-cart</Link></li>
           <li><Link href="/components/task-and-comment">Task-{"&"}-Comment</Link></li>
+          <li><Link href={"/components/text-editor"}>Text-Editor</Link></li>
         </ul>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
