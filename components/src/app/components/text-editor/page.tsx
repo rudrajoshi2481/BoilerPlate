@@ -196,11 +196,11 @@ const TextEditor = () => {
     const theme = useTheme()
 
     return (
-        <div className='p-2 h-full w-full'>
+        <div className='h-full w-full'>
             
             <Editor defaultLanguage="javascript" options={{
                 wordWrap:"on"
-            }} value={someValues}  theme={theme.theme === "dark" ? "vs-dark" : "vs-light"} className={poppins.className} />
+            }} value={someValues}  theme={theme.theme === "dark" ? "vs-dark" : "vs-light"}  />
         </div>
     )
 }

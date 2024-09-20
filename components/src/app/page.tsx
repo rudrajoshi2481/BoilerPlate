@@ -11,6 +11,9 @@ export default function Home() {
           <li><Link href="/components/shopping-cart">shopping-cart</Link></li>
           <li><Link href="/components/task-and-comment">Task-{"&"}-Comment</Link></li>
           <li><Link href={"/components/text-editor"}>Text-Editor</Link></li>
+          <li>
+            <Link href="/components/multiple-pages-sidebar">Multiple-Pages-Sidebar</Link>
+          </li>
         </ul>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
