@@ -14,6 +14,9 @@ export default function Home() {
           <li>
             <Link href="/components/multiple-pages-sidebar">Multiple-Pages-Sidebar</Link>
           </li>
+          <li>
+            <Link href="/components/social-meida-concept">Social-Meida-Concept</Link>
+          </li>
         </ul>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
